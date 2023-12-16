@@ -39,7 +39,7 @@ C.  Solution Steps:
    	 -extract data from data lake into Databricks cluster for cleaning and transformation
    	 -clean and tranform the data in Databricks
    	 -load the cleaned and tranformed data back into the file storage system (Data Lake) from Databricks
-   	 -perform data modeling (normalizing the source dataset table and setting dependencies for the fact and dimension tables) using Power BI Desktop
+   	 -perform data modeling (normalizing the source dataset table and setting relationships for the fact and dimension tables) using Power BI Desktop
 	 -perform data analysis using Power BI Desktop
 	 -report the analysis result via visuals using Power BI Desktop
 
