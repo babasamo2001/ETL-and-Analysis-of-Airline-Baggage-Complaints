@@ -12,8 +12,7 @@ A.  Dataset Details:
 	    Date: The date used to report data for each of the airlines   
 	    Month: The month used to report data for each of the airlines   
 	    Year: The year used to report data for each of the airlines   
-	    Baggage:The total number of passenger complaints for theft of baggage contents, or for lost, damaged, or 
-		    misrouted luggage for the airline that month
+	    Baggage:The total number of passenger complaints for theft of baggage contents, or for lost, damaged, or misrouted luggage for the airline that month
 	    Scheduled:The total number of flights scheduled by the airline that month
 	    Cancelled:The total number of flights cancelled by the airline that month
 	    Enplaned:The total number of passengers who boarded a plane with the airline that month
@@ -44,10 +43,10 @@ C.  Solution Steps:
 	 -perform data analysis using Power BI Desktop
 	 -report the analysis result via visuals using Power BI Desktop
 
-C.  Tech tools: 
+D.  Tech tools: 
    	 -On-premise SQL Server (as On-premise data store)
    	 -Azure Data Factory (to copy data from On-prem SQL Server to Azure Data Lake using self-hosted integration runtime)
-   	 -Nicrosoft Azure Data Lake service (as cloud-based data source and warehouse for the analytics solution)
+   	 -Microsoft Azure Data Lake service (as cloud-based data source and final store for the analytics solution)
    	 -Databricks (for data cleaning and transformation)
    	 -Microsoft Power BI Desktop (for data analysis and reporting)
   
